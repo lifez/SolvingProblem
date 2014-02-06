@@ -1,3 +1,4 @@
+#one line puts  (gets.strip.downcase.chars - 'aeiouy'.chars).map { |x| '.' + x }.join
 string = gets.chomp
 string = string.downcase
 vowels = "aeiouy"
